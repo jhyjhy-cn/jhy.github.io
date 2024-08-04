@@ -4,38 +4,27 @@
   
   
   <entry>
-    <title>测试发布文章</title>
-    <link href="/2021/01/01/%E6%B5%8B%E8%AF%95%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/"/>
-    <url>/2021/01/01/%E6%B5%8B%E8%AF%95%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/</url>
+    <title>Hexo Fluid 文章</title>
+    <link href="/2024/08/04/%E5%89%8D%E7%AB%AF/Hexo&amp;Fluid/"/>
+    <url>/2024/08/04/%E5%89%8D%E7%AB%AF/Hexo&amp;Fluid/</url>
     
     <content type="html"><![CDATA[<h2 id="测试发布文章"><a href="#测试发布文章" class="headerlink" title="测试发布文章"></a>测试发布文章</h2><p><code>这是一篇测试发布文章。</code></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">quick_sort</span>(<span class="hljs-params">arr</span>):<br>    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(arr) &lt;= <span class="hljs-number">1</span>:<br>        <span class="hljs-keyword">return</span> arr<br>    pivot = arr[<span class="hljs-number">0</span>]<br>    left = []<br>    right = []<br>    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">1</span>, <span class="hljs-built_in">len</span>(arr)):<br>        <span class="hljs-keyword">if</span> arr[i] &lt; pivot:<br>            left.append(arr[i])<br>        <span class="hljs-keyword">else</span>:<br>            right.append(arr[i])<br>    <span class="hljs-keyword">return</span> quick_sort(left) + [pivot] + quick_sort(right)<br></code></pre></td></tr></table></figure>]]></content>
     
     
     <categories>
       
-      <category>随笔</category>
+      <category>前端</category>
       
     </categories>
     
     
-  </entry>
-  
-  
-  
-  <entry>
-    <title>测试发布文章2</title>
-    <link href="/2021/01/01/%E6%B5%8B%E8%AF%95%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A02/"/>
-    <url>/2021/01/01/%E6%B5%8B%E8%AF%95%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A02/</url>
-    
-    <content type="html"><![CDATA[<h2 id="测试发布文章2"><a href="#测试发布文章2" class="headerlink" title="测试发布文章2"></a>测试发布文章2</h2><p><code>这是一篇测试发布文章。</code></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">quick_sort</span>(<span class="hljs-params">arr</span>):<br>    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(arr) &lt;= <span class="hljs-number">1</span>:<br>        <span class="hljs-keyword">return</span> arr<br>    pivot = arr[<span class="hljs-number">0</span>]<br>    left = []<br>    right = []<br>    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">1</span>, <span class="hljs-built_in">len</span>(arr)):<br>        <span class="hljs-keyword">if</span> arr[i] &lt; pivot:<br>            left.append(arr[i])<br>        <span class="hljs-keyword">else</span>:<br>            right.append(arr[i])<br>    <span class="hljs-keyword">return</span> quick_sort(left) + [pivot] + quick_sort(right)<br></code></pre></td></tr></table></figure>]]></content>
-    
-    
-    <categories>
+    <tags>
       
-      <category>随笔</category>
+      <tag>Hexo</tag>
       
-    </categories>
-    
+      <tag>Fluid</tag>
+      
+    </tags>
     
   </entry>
   
